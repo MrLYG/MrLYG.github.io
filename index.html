@@ -1,965 +1,221 @@
-<!DOCTYPE HTML>
-<html lang="en">
-
-
-<head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="Hexo">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="renderer" content="webkit|ie-stand|ie-comp">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-
-    <title>Hexo</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
-
-    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
-    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
-    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/matery.css">
-    <link rel="stylesheet" type="text/css" href="/css/my.css">
-
-    <script src="/libs/jquery/jquery.min.js"></script>
-
-<meta name="generator" content="Hexo 5.4.0"></head>
-
-
-
-
-<body>
-    <header class="navbar-fixed">
-    <nav id="headNav" class="bg-color nav-transparent">
-        <div id="navContainer" class="nav-wrapper container">
-            <div class="brand-logo">
-                <a href="/" class="waves-effect waves-light">
-                    
-                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
-                    
-                    <span class="logo-span">Hexo</span>
-                </a>
-            </div>
-            
-
-<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
-<ul class="right nav-menu">
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/" class="waves-effect waves-light">
-      
-      <i class="fas fa-home" style="zoom: 0.6;"></i>
-      
-      <span>Index</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/tags" class="waves-effect waves-light">
-      
-      <i class="fas fa-tags" style="zoom: 0.6;"></i>
-      
-      <span>Tags</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/categories" class="waves-effect waves-light">
-      
-      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
-      
-      <span>Categories</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/archives" class="waves-effect waves-light">
-      
-      <i class="fas fa-archive" style="zoom: 0.6;"></i>
-      
-      <span>Archives</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/about" class="waves-effect waves-light">
-      
-      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
-      
-      <span>About</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/contact" class="waves-effect waves-light">
-      
-      <i class="fas fa-comments" style="zoom: 0.6;"></i>
-      
-      <span>Contact</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/friends" class="waves-effect waves-light">
-      
-      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
-      
-      <span>Friends</span>
-    </a>
-    
-  </li>
-  
-  <li>
-    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
-    </a>
-  </li>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>Yuangang&#039;s Home</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Yuangang&#039;s Home"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Yuangang&#039;s Home"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:type" content="blog"><meta property="og:title" content="Yuangang&#039;s Home"><meta property="og:url" content="https://mrlyg.github.io/"><meta property="og:site_name" content="Yuangang&#039;s Home"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://mrlyg.github.io/img/og_image.png"><meta property="article:author" content="Yuangang Li"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://mrlyg.github.io"},"headline":"Yuangang's Home","image":["https://mrlyg.github.io/img/og_image.png"],"author":{"@type":"Person","name":"Yuangang Li"},"publisher":{"@type":"Organization","name":"Yuangang's Home","logo":{"@type":"ImageObject","url":"https://mrlyg.github.io/img/geek.svg"}},"description":""}</script><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.4.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/geek.svg" alt="Yuangang&#039;s Home" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item is-active" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2021-08-11T09:43:11.156Z" title="2021/8/11 下午5:43:11">2021-08-11</time></span><span class="level-item">Updated&nbsp;<time dateTime="2021-08-11T09:42:49.817Z" title="2021/8/11 下午5:42:49">2021-08-11</time></span><span class="level-item">21 minutes read (About 3144 words)</span></div></div><div class="content"><h1 id="内存空间的分配与回收"><a href="#内存空间的分配与回收" class="headerlink" title="内存空间的分配与回收"></a>内存空间的分配与回收</h1><p>内存的分配分为连续分配和非连续分配，所谓连续分配就是把一个进程的数据连续分配到内存中，非连续分配就是把进程分配到分散的内存中。</p>
+<h1 id="1-连续分配管理方式"><a href="#1-连续分配管理方式" class="headerlink" title="1. 连续分配管理方式"></a>1. 连续分配管理方式</h1><p>连续分配有三种方式，每一种方式都是逐步演变行程的且有各自优点的。还是那句话所有事物的存在必然又因果！</p>
+<h2 id="1-1-单一连续分配"><a href="#1-1-单一连续分配" class="headerlink" title="1.1. 单一连续分配"></a>1.1. 单一连续分配</h2><h3 id="1-1-1-什么是单一连续分配"><a href="#1-1-1-什么是单一连续分配" class="headerlink" title="1.1.1. 什么是单一连续分配"></a>1.1.1. 什么是单一连续分配</h3><p>在这种管理方式中，内存被分为两个区域：系统区和用户区。顾名思义系统区存放系统相关数据，用户区存放用户进程相关数据。内存中只能<strong>有一道用户程序</strong>，用户程序独占整个用户区空间。</p>
+<p><img src="/2021/08/11/%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/Untitled.png" alt="%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/Untitled.png"></p>
+<p>在最初的PC系统中，并不支持多道程序运行，单一连续分配体现了其优点：实现简单；<strong>无外部碎</strong>片；可以采用<strong>覆盖技术</strong>扩充内存；不一定需要采取<strong>内存保护</strong></p>
+<p>但也有很明显的缺点：单一连续分配管理内存的方式仅用户单用户，单道程序的操作系统中；有<strong>内部碎片，</strong>存储器利用率低（想想一次只运行一个程序的机器，在程序大小远小于存储器容量大小的时候，利用率肯定低）</p>
+<h2 id="1-2-固定分区分配"><a href="#1-2-固定分区分配" class="headerlink" title="1.2. 固定分区分配"></a>1.2. 固定分区分配</h2><h3 id="1-2-1-什么事固定分区分配"><a href="#1-2-1-什么事固定分区分配" class="headerlink" title="1.2.1. 什么事固定分区分配"></a>1.2.1. 什么事固定分区分配</h3><p>内存分为系统去和用户区，固定分区分配是把用户区分为很多个更小的区，在每个分区只装入一个程序（最早的可运行的多道程序内存管理方式）。根据固定分区分配把每一个分区分的是否相等，固定分区分配又有两种情况1.分区大小相等 2.分区大小不相等</p>
+<p><strong>固定分区分配，分区大小相等</strong></p>
+<p>缺乏灵活性，但是很适合用于用一台计算机控制多个相同对象的场合（比如：钢铁厂有n个相同的炼钢炉，就可把内存分为n个大小相等的区域存放n个炼钢炉控制程序）</p>
+<p><strong>固定分区分配，分区大小不相等</strong></p>
+<p>增加了灵活性，可以满足不同大小的进程需求。根据常在系统中运行的作业大小情况进行划分（比如：划分多个小分区、适量中等分区、少量大分区）</p>
+<p><img src="/2021/08/11/%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/Untitled%201.png" alt="%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/Untitled%201.png"></p>
+<h3 id="1-2-2-如何实现固定分区分配"><a href="#1-2-2-如何实现固定分区分配" class="headerlink" title="1.2.2. 如何实现固定分区分配"></a>1.2.2. 如何实现固定分区分配</h3><p>要实现对分区的管理，我们就需要设计某种数据结构来组织分区并存储分区的相关数据。操作系统提供了这种数据结构<strong>分区说明表</strong>（数组或者链表都可实现）</p>
+<p><img src="/2021/08/11/%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/Untitled%202.png" alt="%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/Untitled%202.png"></p>
+<p>当某用户程序要装入内存时，由操作系统内核程序根据用户程序大小检索该表，从中找到一个能满足大小的、未分配的分区，将之分配给该程序，然后修改状态为“已分配”。<br>优点：实现简单，<strong>无外部碎片</strong>。若一个用户程序（进程）的大小，超出内存所剩分区中最大容量的分区，进程也可放入该分区，不过需要使用<strong>覆盖技术进行逻辑扩容。</strong><br>缺点：a. 当用户程序太大时，可能所有的分区都不能满足需求，此时不得不采<br>用<strong>覆盖技术</strong>来解决，但这又会降低性能；b. 会产生<strong>内部碎片</strong>，内存利用率低。</p>
+<h2 id="1-3-动态分区分配"><a href="#1-3-动态分区分配" class="headerlink" title="1.3. 动态分区分配"></a>1.3. 动态分区分配</h2><h3 id="1-3-1-为什么要有动态分区分配"><a href="#1-3-1-为什么要有动态分区分配" class="headerlink" title="1.3.1. 为什么要有动态分区分配"></a>1.3.1. 为什么要有动态分区分配</h3><p>固定分区分配内容管理方式会出现所有分区都不能满足程序大小的情况，且使用覆盖技术解决会造成性能降低。有没有一种内存管理方式可以给每一个程序放入内存时，自动分配空间大小，而不是提前把内存划分好？有的，就是动态分区分配，动态分区分配算法解决的主要矛盾就是<strong>程序的大小是无法预知的以至于无法按照实际预想装入固定的内存分区中</strong>。</p>
+<p>在动态分区分配管理下的进程装入的简单流程：</p>
+<p><img src="/2021/08/11/%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/Untitled%203.png" alt="%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/Untitled%203.png"></p>
+<h3 id="1-3-2-动态分区分配的概念"><a href="#1-3-2-动态分区分配的概念" class="headerlink" title="1.3.2. 动态分区分配的概念"></a>1.3.2. 动态分区分配的概念</h3><p>动态分区分配不会预先划分内存分区，需要有一种数据结构来存储内存中的空闲分区和已分配的情况，在程序装入内存时，根据进程的大小动态地建立分区。</p>
+<p>优点：动态分区分配没有<strong>内部碎片</strong>，但是有<strong>外部碎片</strong></p>
+<blockquote>
+<p>内部碎片，分配给某进程的内存区域中，如果有些部分没有用上。<br>外部碎片，是指内存中的某些空闲分区由于太小而难以利用。</p>
+</blockquote>
+<p><strong>为何动态分区没有内部碎片，但有外部碎片？</strong></p>
+<p><strong>没有内部碎片——因为内存中分区的大小是根据进程大小自动分配的，所以不存在在某个分区内有未被使用的内存；</strong></p>
+<p><strong>有外部碎片—— 因为在连续分配管理模式下，进程的内存是连续分配的，在进程结束替换进更小的进程后，导致两进程间出现很小的内存区域，小到无法装入任何一个进程。</strong></p>
+<p><img src="/2021/08/11/%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/Untitled%204.png" alt="%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/Untitled%204.png"></p>
+<p><strong>如何解决外部碎片？</strong></p>
+<p>如果内存中空闲空间的总和本来可以满足某进程的要求，但由于进程需要的是一整块连续的内存空间，因此这些“碎片”不能满足进程的需求。可以通过紧凑（拼凑，Compaction）技术来解决外部碎片。</p>
+<h3 id="1-3-3-动态分区分配的数据结构"><a href="#1-3-3-动态分区分配的数据结构" class="headerlink" title="1.3.3. 动态分区分配的数据结构"></a>1.3.3. <strong>动态分区分配的数据结构</strong></h3><p>还记得分区说明表吗？分区说明表是帮助操作系统实现<strong>固定分区分配</strong>的一种数据结构。实现动态分区分配使用的数据结构是<strong>空闲分区表(空闲分区链)</strong> </p>
+<p><strong>空闲分区表</strong>：每个空闲分区对应一个表项。表项中包含分区号、分区大小、分区起始地址等信息。</p>
+<p><strong>空闲分区链</strong>：每个分区的起始部分和末尾部分分别设置前向指针和后向指针。起始部分处还可记录分区大小等信息。</p>
+<p><img src="/2021/08/11/%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/Untitled%205.png" alt="%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/Untitled%205.png"></p>
+<h3 id="1-3-4-动态分区分配管理方式的分配算法"><a href="#1-3-4-动态分区分配管理方式的分配算法" class="headerlink" title="1.3.4. 动态分区分配管理方式的分配算法"></a>1.3.4. 动态分区分配管理方式的分配算法</h3><p>在动态分区分配方式中， 当很多个空闲分区都能满足需求时，应该选择哪个分区进行分配？</p>
+<ul>
+<li><p>最佳适应算法(Best Fit)</p>
+<p>  何为最佳呢？ 大进程进入内存是能有<strong>连续</strong>的空间进行存储。</p>
+<p>  把空闲分区的表项按照分区大小进行从小到大的排序，每次都从头的开始找，找到第一个能满足大小的空闲分区。这样的话可以尽可能的保留大片的空闲区，给大进程使用。</p>
+<p>  缺点：会造成很多细小的、难以利用的小块内存块，产生大量的外部碎片。</p>
+</li>
+<li><p>最坏适应算法(worst Fit)</p>
+<p>  为了解决最佳适应算法的问题——即留下太多难以利用的小碎片，可以在每次分配时优先使用最大的连续空闲区，这样分配后剩余的空闲区就不会太小，更方便使用。</p>
+<p>  把空分区表的表项按照分区大小进行从大到小的排序，每次都从头的开始找，找到第一个能满足大小的空闲分区。</p>
+<p>  缺点：有大进程要进入内存时，因为Worst Fit 算法优先使用大块的分区分配给进程，可能会出现没有足够的连续内存存储大进程的情况。</p>
+</li>
+<li><p>首次适应算法(First Fit)</p>
+<p>  把空闲分区表的表项按照起始地址进行排序，每次都从地址低的开始找，找到第一个能满足大小的空闲分区。</p>
+<p>  缺点：法每次都从链头开始查找的。这可能会导致低地址部分出现很多小的空闲分区，而每次分配查找时，都要经过这些分区，因此也增加了查找的开销。</p>
+</li>
+<li><p>邻近使用算法(Next Fit)</p>
+<p>  解决首次适应算法，每次从低地址开始找导致的在低地址部分出现很多小的空闲分区，而且由于局部性原理，每次都从低地址开始找，效率低等问题。邻近使用算法(Next Fit)每次都从上次查找结束的位置开始检索。</p>
+<p>  缺点：虽然解决了低地址有更多的外部碎片问题，但是Next Fit 算法会导致在高地址部分也会被划分为小分区</p>
+</li>
 </ul>
+<p><img src="/2021/08/11/%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/Untitled%206.png" alt="%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/Untitled%206.png"></p>
+<pre><code>综上介绍了四种动态分区分配算法，各有各的缺点，相比之下首次适应算法(First Fit)虽然查询效率有影响，且会在低地址部分产生更多的小分区。但是如果有大进程进入内存时，在高地址部分有大分区可以使用。 且不用进行排序。
+</code></pre>
+<h3 id="1-3-5-动态分区分配管理方式的回收"><a href="#1-3-5-动态分区分配管理方式的回收" class="headerlink" title="1.3.5. 动态分区分配管理方式的回收"></a>1.3.5. 动态分区分配管理方式的回收</h3><p>概念性的东西，理解就好！</p>
+<ol>
+<li><p>回收区的后面有一个相邻的空闲分区</p>
+<p> 两个相邻的空闲分区合并为一个</p>
+</li>
+<li><p>回收区的前面有一个相邻的空闲分区</p>
+<p> 两个相邻的空闲分区合并为一个</p>
+</li>
+<li><p>回收区的前、后各有一个相邻的空闲分区</p>
+<p> 三个相邻的空闲分区合并为一个</p>
+</li>
+<li><p>回收区的前、后都没有相邻的空闲分区</p>
+<p> 新增一个空闲分区表的表项或者空闲分区链的节点</p>
+</li>
+</ol>
+<h1 id="2-非连续分配管理方式"><a href="#2-非连续分配管理方式" class="headerlink" title="2. 非连续分配管理方式"></a>2. 非连续分配管理方式</h1></div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2021-08-11T09:31:06.950Z" title="2021/8/11 下午5:31:06">2021-08-11</time></span><span class="level-item">Updated&nbsp;<time dateTime="2021-08-11T00:59:06.000Z" title="2021/8/11 上午8:59:06">2021-08-11</time></span><span class="level-item">3 minutes read (About 450 words)</span></div></div><div class="content"><h1 id="程序开发"><a href="#程序开发" class="headerlink" title="程序开发"></a>程序开发</h1><p><a href="%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%204824055cd67a458f8d4a44b63e9e9a9f/JAVA%20%E5%9F%BA%E7%A1%80%201341f292425d451e8332024a1239abbf.md">JAVA 基础</a></p>
+<p><a href="%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%204824055cd67a458f8d4a44b63e9e9a9f/MySQL%2034c31ed1f5dc4a74b45da50e5977d3bd.md">MySQL</a></p>
+<p><a href="%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%204824055cd67a458f8d4a44b63e9e9a9f/%E5%89%8D%E7%AB%AF%205fec5a03ff8a42829143619e35cb003a.md">前端</a></p>
+<p><a href="%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%204824055cd67a458f8d4a44b63e9e9a9f/JAVA%20Web%2089ae8e1399eb4ea58625bfae9209660b.md">JAVA Web</a></p>
+<p><a href="%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%204824055cd67a458f8d4a44b63e9e9a9f/SSM%2076efc8a0b7484b7691e3ce797920bd38.md">SSM</a></p>
+<p><a href="%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%204824055cd67a458f8d4a44b63e9e9a9f/Maven%200fbf83a12e0142bab40fc633dd7bfdc1.md">Maven</a></p>
+<p><a href="%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%204824055cd67a458f8d4a44b63e9e9a9f/GIT%20c211462ff2ac4bf6a90c5dd9a080abc0.md">GIT</a></p>
+<p><a href="%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%204824055cd67a458f8d4a44b63e9e9a9f/Nginx%20f999d217f74b49eda2ddb72939a96061.md">Nginx</a></p>
+<p><a href="%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%204824055cd67a458f8d4a44b63e9e9a9f/%E5%88%86%E5%B8%83%E5%BC%8F%201f3c36a63e1b4d5093fa66967781acbc.md">分布式</a></p>
+<p><a href="%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%204824055cd67a458f8d4a44b63e9e9a9f/fastDFS%E5%88%86%E5%B8%83%E5%BC%8F%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%207691ee2adf40449080f2809f1a88c9bf.md">fastDFS分布式文件系统</a></p>
+<p><a href="%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%204824055cd67a458f8d4a44b63e9e9a9f/docker%E3%80%81k8s%E3%80%81istio%E5%AE%89%E8%A3%85%20663942f0fd914d9db12705d6ce2d28ea.md">docker、k8s、istio安装</a></p>
+<p><a href="%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%204824055cd67a458f8d4a44b63e9e9a9f/Copy%20of%20List%2092b2898a360d4c318ef98946f88846ca.md">Copy of List</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=JX5azz7TrZc">https://www.youtube.com/watch?v=JX5azz7TrZc</a></p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2021-08-11T01:01:50.000Z" title="2021/8/11 上午9:01:50">2021-08-11</time></span><span class="level-item">Updated&nbsp;<time dateTime="2021-08-11T09:25:18.057Z" title="2021/8/11 下午5:25:18">2021-08-11</time></span><span class="level-item">27 minutes read (About 4025 words)</span></div></div><div class="content"><h1 id="Cahce"><a href="#Cahce" class="headerlink" title="Cahce"></a>Cahce</h1><h1 id="缓存意义"><a href="#缓存意义" class="headerlink" title="缓存意义"></a>缓存意义</h1><p>万物皆有存在的意义，意义更多时候是弥补现有的不足。 Cache的意义在于弥补现有存储体系数据读写速度和CPU运行速度的鸿沟。简单来说就是CPU运算的速度远远快于从CPU从内存中读取数据的时间，添加缓存弥补时间上的差距，整体提高系统性能。</p>
+<h1 id="局部性原理"><a href="#局部性原理" class="headerlink" title="局部性原理"></a>局部性原理</h1><p>何为局部性原理，局部性原理从何而来，他的意义是什么。我的理解是局部性原理是一种经验性的发现，一种结论，计算机的很多体系设置都是基于这个发现的。</p>
+<p>来看一下CSAPP上关于Locality的介绍</p>
+<blockquote>
+<p>Well-written computer programs tend to exhibit good locality. That is, they tend to reference data items that are near other recently referenced data items or that were recently referenced themselves. This tendency, known as the principle of locality, is an enduring concept that has  enormous impact on the design and performance of hardware and software systems.<br>一个编写良好的计算机程序常常具有良好的局部性(locality)。 也就是,它们倾向于引用邻近于其他最近引用过的数据项的数据项,或者最近引用过的数据项本身。这种倾向性,被称为局部性原理(principleof locality), 是一个持久的概念,对硬件和软件系统的设计和性能都有着极大的影响。</p>
+</blockquote>
+<p>Locality is  typically described as having two distinct forms: temporal locality and spatial locality. In a  program with good temporal locality, a memory location that is referenced once is likely to be referenced again multiple times in the near future. In a program with good spatial locality, if a memory location is referenced<br>局部性通常有两种不同的形式:时间局部性(temporal locality)和空间局部性(spalial locallty)。 在一个具有良好时间局部性的程序中,被引用过一次的内存位置很可能在不远的将来再被多次引用。在一个具有良好空间局部性的程序中,如果一个内存位置被引用了一次,那么程序很可能在不远的将来引用附近的一个内存位置。</p>
+<h2 id="什么是局部性"><a href="#什么是局部性" class="headerlink" title="什么是局部性"></a>什么是局部性</h2><p>局部性有两种形式</p>
+<p><strong>1.时间局部性</strong></p>
+<p>被引用过一次的位置未来会被多次引用</p>
+<p><strong>2.空间局部性</strong></p>
+<p>存储器中被某一数据的位置被引用，那么将来该位置附近的位置也会被引用</p>
+<p>通过一个简单的CSAPP书上的例子解释一下，时间局部性和空间局部性</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">sumvec</span><span class="params">(<span class="keyword">int</span> v[N])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	 <span class="keyword">int</span> i, sum = <span class="number">0</span>;</span><br><span class="line">	 <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; N; i++)</span><br><span class="line">	 sum += v[i];</span><br><span class="line">	 <span class="keyword">return</span> sum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<p><img src="/2021/08/11/Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled.png" alt="Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled.png"></p>
+<p>如图数组v的元素是被顺序读取，所以对于变量v, 他有很好的空间局部性（因为在V0被引用以后，v0位置附近的位置也会被引用)，但数组变量v的时间局部性很差，因为v数组中每个数据只引用一次。变量sum有很好的的时间局部性，因为他被引用后会被多次引用。</p>
+<p>具有良好局部性的代码，CPU在连续访问数据时，每次访问的数据的在存储空间位置上的步长更短，最好的情况就是被访问的数据时连续且依次被CPU访问的。</p>
+<p>步长和缓存命中也有关系</p>
+<h2 id="局部性原理和缓存的关系"><a href="#局部性原理和缓存的关系" class="headerlink" title="局部性原理和缓存的关系"></a>局部性原理和缓存的关系</h2><p>缓存的主要目的是为了解决CPU和一般存储器间速度的鸿沟，缓存<strong>符合</strong>局部性原理。</p>
+<p>在计算机存储体系中上层存储器是下层存储器的缓存。下层存储器中的数据一旦被装入上层存储器，就很有可能被多次用到，此时CPU则可以在更靠近它的性能也更高的存储器内找到其需要的数据，而不需要每次都要到离它更远，性能也更低的存储器内去存取它们[1]。</p>
+<p>设想我们很有钱买了一台所有存储器材料SRAM（寄存器所使用的材料，读写速度极快）的计算机，这样我们的CPU即使不需要缓存也能很快的去访问数据。但是仔细想一想这样是造成了极大的资源浪费的，因为在一个时刻，存储器中的数据只有一部分是被引用的（局部性原理），而存储器中其他的大部分数据都是空闲的，那么这些空闲的数据还是存到SRAM为材料的存储器中的话会很浪费资源。</p>
+<p><img src="/2021/08/11/Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%201.png" alt="Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%201.png"></p>
+<p><a href></a></p>
+<p>在某一时刻，上图有色区域是CPU所要使用的数据，其他的位置都是空闲的，这样会有极大的浪费。———即使所有的数据直接存储到很大的寄存器中，但同一时刻，你可能只会用到其中的一部分。所以还不如用缓存架构。 总有些是正在工作，总有些是空闲的。缓存设计的理念就是将工作的数据抽出来，不工作的数据还留在原有的存储器中。</p>
+<p><img src="/2021/08/11/Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%202.png" alt="Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%202.png"></p>
+<p>如上图，简单抽象缓存的设计思路（实际上要复杂很多），某一进程启动时先将将磁盘的数据先加载到内存中，在将数据加载到缓存中。</p>
+<p>这样的好处 1.解决了CPU运算很快，数据读写很慢的情况。 2.因为读写越快的存储器越贵，将工作的数据抽到缓存中，暂时不工作的数据存放在稍便宜的但读写偏慢的存储器中（内存），将资源性文件，例如一个视频文档等，在不用的时候放到磁盘中，这样资源的利用率高。</p>
+<h1 id="数据分块的概念"><a href="#数据分块的概念" class="headerlink" title="数据分块的概念"></a>数据分块的概念</h1><p>知道了为何有缓存以及缓存的设计理念后，我们可以想到把CPU目前访问的地址和周围的部分数据放到缓存中会极大的提高程序效率。</p>
+<p>这就引出了数据分块的概念，将内存的存储空间进行“分块”，主存于缓存Cache之间以“块”为单位进行数据交换。</p>
+<p>Core i7中所有cache的块大小都是64B[2]</p>
+<p>为了更好地理解，内存的大小为8MB，Cache大小为8KB（具体如图所示）</p>
+<p><img src="/2021/08/11/Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%203.png" alt="Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%203.png"></p>
+<p>由此我们来思考几个问题：1.内存的块和Cache的块如何对应呢？ 2. 因为Cache的存储容量是远小于内存容量的，那么Cache容量满了之后应该如何处理呢？3.CPU修改Cache中的数据后，如何同步到内存中，以及在并发场景下如何保证数据的一致性呢？</p>
+<h1 id="Cache和内存的3种映射关系"><a href="#Cache和内存的3种映射关系" class="headerlink" title="Cache和内存的3种映射关系"></a>Cache和内存的3种映射关系</h1><p>CPU根据地址寻找数据时总是先在缓存中寻找，在缓存中没有找到（缓存未命中）后才会去内存寻找，然后，根据局部性原理，把CPU所寻找的数据所在位置的数据块加载到缓存，使CPU在下次寻找数据时直接能在缓存中找到。</p>
+<p><img src="/2021/08/11/Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%204.png" alt="Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%204.png"></p>
+<p>还是以内存的大小为8MB，Cache大小为8KB为例—- cahce和内存的映射关系</p>
+<h2 id="全相联映射"><a href="#全相联映射" class="headerlink" title="全相联映射"></a>全相联映射</h2><h2 id="直接映射"><a href="#直接映射" class="headerlink" title="直接映射"></a>直接映射</h2><h2 id="组相联映射"><a href="#组相联映射" class="headerlink" title="组相联映射"></a>组相联映射</h2><h1 id="Cache中数据的替换算法"><a href="#Cache中数据的替换算法" class="headerlink" title="Cache中数据的替换算法"></a>Cache中数据的替换算法</h1><p>cache 满了怎么办   —替换算法</p>
+<p>有四种方法分别是</p>
+<ul>
+<li>随机算法(RAND)</li>
+<li>先进先出算法(FIFO)</li>
+<li>近期最少使用算法(LRU 面试高频)</li>
+<li>最近不经常使用算法(LFU)</li>
+</ul>
+<h2 id="随机算法-RAND"><a href="#随机算法-RAND" class="headerlink" title="随机算法(RAND)"></a>随机算法(RAND)</h2><p>随机算法（RAND, Random）——若Cache已满，则随机选择一块替换。</p>
+<p>实现简单，但完全没考虑局部性原理，命中率低，实际效果很不稳定</p>
+<h2 id="先进先出算法-FIFO"><a href="#先进先出算法-FIFO" class="headerlink" title="先进先出算法(FIFO)"></a>先进先出算法(FIFO)</h2><p>先进先出算法（FIFO, First In First Out）——若Cache已满，则替换最先被调入Cache 的块</p>
+<p>先进先出算法——实现简单，最开始按#0#1#2#3放入Cache，之后轮流替换 #0#1#2#3<br>FIFO依然没考虑局部性原理，最先被调入Cache的块也有可能是被频繁访问的</p>
+<h2 id="✨近期最少使用算法-LRU"><a href="#✨近期最少使用算法-LRU" class="headerlink" title="✨近期最少使用算法(LRU)"></a>✨近期最少使用算法(LRU)</h2><p>近期最少使用算法（LRU, Least Recently Used ）—— 为每一个Cache块设置一个“计数器”，用于记录<br>每个Cache块已经有多久没被访问了。当<strong>Cache满后替换“计数器”最大的</strong></p>
+<h3 id="LRU实现过程"><a href="#LRU实现过程" class="headerlink" title="LRU实现过程"></a>LRU实现过程</h3><p>①命中时，所命中的行的计数器清零，<strong>比其低的计数器加1，其余不变 → 当一个Cache有2^n个数据块时，计数器只需要n位当数据满时，加入新的数据块，计数器的值一定是不重复的。</strong><br>②未命中且还有空闲行时，新装入的行的计数器置0，其余非空闲行全加1；<br>③未命中且无空闲行时，计数值最大的行的信息块被淘汰，新装行的块的计数器置0，其余全加1。</p>
+<h3 id="LRU算法"><a href="#LRU算法" class="headerlink" title="LRU算法"></a>LRU算法</h3><p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/34989978">缓存淘汰算法–LRU算法</a></p>
+<p><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000038714624">其实吧，LRU也就那么回事。</a></p>
+<p>自己实现了一个读数据和插入数据以及删除数据都为O(1)的数据结构，是HashMap和链表的结合，HashMap优化查询，链表优化插入和删除。Java有自带的LinkedHashMap的库；</p>
+<p><img src="/2021/08/11/Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%205.png" alt="Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%205.png"></p>
+<p><a target="_blank" rel="noopener" href="https://gist.github.com/MrLYG/38f0a461c24fefcb4dbea26e3e32f537">https://gist.github.com/MrLYG/38f0a461c24fefcb4dbea26e3e32f537</a></p>
+<p><a target="_blank" rel="noopener" href="https://replit.com/@kenli5/StudyJavaToMaster#LeetCode/src/main/java/LRU/LRUCache.java">https://replit.com/@kenli5/StudyJavaToMaster#LeetCode/src/main/java/LRU/LRUCache.java</a></p>
+<h3 id="LRU-Pros-amp-Cons"><a href="#LRU-Pros-amp-Cons" class="headerlink" title="LRU Pros&amp;Cons"></a>LRU Pros&amp;Cons</h3><p><strong>pros</strong>→LRU算法——基于“局部性原理”，近期被访问过的主存块，在不久的将来也很有可能被再次访问，因此淘汰最久没被访问过的块是合理的。LRU算法的实际运行效果优秀，Cache命中率高。</p>
+<p><strong>cons</strong>→若被频繁访问的主存块数量 &gt; Cache行的数量，则有可能发生“<strong>抖动</strong>”，如：{1,2,3,4,5,1,2,3,4,5,1,2…} cache 只有四组的情况</p>
+<p>解释一下： 当cache只有四组的情况时</p>
+<p><img src="/2021/08/11/Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%206.png" alt="Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%206.png"></p>
+<p>如图：红色代表当次访问的到数据块从内存加载到了cache中</p>
+<p>可以发现在这种情况中，LRU算法退化成了FIFO算法，导致效率低下，且缓存命中率为0，跟没加缓存的性能一样。所以如果出现程序突然的运行效率变低，需要注意是否是出现抖动的情况；</p>
+<p><strong>如何修复抖动情况</strong>：</p>
+<p>避免CPU访问5号位的数据。</p>
+<p>相信大家看到这里，跟我第一次学的时候一样的懵B无措，希望大家带着问题继续往下看，下面将讲解到底什么是“抖动”。</p>
+<h3 id="抖动-thrash"><a href="#抖动-thrash" class="headerlink" title="抖动(thrash)"></a>抖动(thrash)</h3><p>The term thrashing describes any situation where a cache is repeatedly loading and evicting the same sets of cache blocks.<br>术语“抖动”描述了一种情况，即高速缓存重复的加载和删除相同的高速缓存块组</p>
+<p>eg:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">float</span> <span class="title">dotprod</span><span class="params">(<span class="keyword">float</span> x [<span class="number">8</span>], <span class="keyword">float</span> y [<span class="number">8</span>])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">float</span> sum = <span class="number">0.0</span>;</span><br><span class="line">	<span class="keyword">int</span> i;</span><br><span class="line">  <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; <span class="number">8</span>; i++)</span><br><span class="line">	  sum += x [i] * y [i];</span><br><span class="line">  <span class="keyword">return</span> sum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<div id="mobile-nav" class="side-nav sidenav">
-
-    <div class="mobile-head bg-color">
-        
-        <img src="/medias/logo.png" class="logo-img circle responsive-img">
-        
-        <div class="logo-name">Hexo</div>
-        <div class="logo-desc">
-            
-            Never really desperate, only the lost of the soul.
-            
-        </div>
-    </div>
-
-    
-
-    <ul class="menu-list mobile-menu-list">
-        
-        <li class="m-nav-item">
-	  
-		<a href="/" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-home"></i>
-			
-			Index
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/tags" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-tags"></i>
-			
-			Tags
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/categories" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-bookmark"></i>
-			
-			Categories
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/archives" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-archive"></i>
-			
-			Archives
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/about" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-user-circle"></i>
-			
-			About
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/contact" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-comments"></i>
-			
-			Contact
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/friends" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-address-book"></i>
-			
-			Friends
-		</a>
-          
-        </li>
-        
-        
-        <li><div class="divider"></div></li>
-        <li>
-            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
-                <i class="fab fa-github-square fa-fw"></i>Fork Me
-            </a>
-        </li>
-        
-    </ul>
-</div>
-
-
-        </div>
-
-        
-            <style>
-    .nav-transparent .github-corner {
-        display: none !important;
-    }
-
-    .github-corner {
-        position: absolute;
-        z-index: 10;
-        top: 0;
-        right: 0;
-        border: 0;
-        transform: scale(1.1);
-    }
-
-    .github-corner svg {
-        color: #0f9d58;
-        fill: #fff;
-        height: 64px;
-        width: 64px;
-    }
-
-    .github-corner:hover .octo-arm {
-        animation: a 0.56s ease-in-out;
-    }
-
-    .github-corner .octo-arm {
-        animation: none;
-    }
-
-    @keyframes a {
-        0%,
-        to {
-            transform: rotate(0);
-        }
-        20%,
-        60% {
-            transform: rotate(-25deg);
-        }
-        40%,
-        80% {
-            transform: rotate(10deg);
-        }
-    }
-</style>
-
-<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
-   data-tooltip="Fork Me" data-position="left" data-delay="50">
-    <svg viewBox="0 0 250 250" aria-hidden="true">
-        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
-              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
-        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
-              fill="currentColor" class="octo-body"></path>
-    </svg>
-</a>
-        
-    </nav>
-
-</header>
-
-    
-<style>
-    .carousel-control {
-        width: 45px;
-        height: 45px;
-        line-height: 55px;
-        border-radius: 45px;
-        background: transparent;
-        cursor: pointer;
-        z-index: 100;
-    }
-
-    #prev-cover {
-        position: absolute;
-        top: 48%;
-        left: 8px;
-    }
-
-    #next-cover {
-        position: absolute;
-        top: 48%;
-        right: 8px;;
-    }
-
-    #prev-cover i {
-        margin-right: 3px;
-    }
-
-    #next-cover i {
-        margin-left: 3px;
-    }
-
-    .carousel-control:hover {
-        background-color: rgba(0, 0, 0, .4);
-    }
-
-    .carousel-control i {
-        color: #fff;
-        font-size: 2.4rem;
-    }
-</style>
-
-
-
-<div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
-    
-
-    <div class="carousel-item red white-text bg-cover about-cover">
-        <div class="container">
-            <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                    subtitle
-                
-            </div>
-
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: ['从来没有真正的绝境, 只有心灵的迷途','Never really desperate, only the lost of the soul'],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
-
-
-
-            <div class="cover-btns">
-                <a href="#articles" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i>Start
-                </a>
-
-                
-                    <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light btn" target="_blank">
-                        <i class="fab fa-github-alt"></i>Github
-                    </a>
-                
-            </div>
-            <div class="cover-social-link">
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-        <i class="fab fa-github"></i>
-    </a>
-
-
-
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
-
-</div>
-        </div>
-    </div>
-
-    
-</div>
-
-<script>
-    $(function () {
-        let coverSlider = $('.carousel');
-
-        //用户触摸轮播自动 restartPlay 是否生效
-        let initUserPressedOrDraggedActive = false
-
-        //用户触摸轮播自动 restartPlay
-        function initUserPressedOrDragged(instance) {
-            setInterval(() => {
-                if (instance.pressed || instance.dragged) {
-                    // console.log('initUserPressedOrDragged: ',instance.pressed,instance.dragged)
-                    restartPlay()
+<p>Suppose that floats are 4 bytes, that x is loaded into the 32 bytes of contiguous memory starting at address 0, and that y starts immediately after x at address 32. For simplicity, suppose that a block is 16 bytes (big enough to hold four floats) and that the cache consists of two sets, for a total cache size of 32 bytes. We will assume that the variable sum is actually stored in a CPU register and thus does not require a memory reference. Given these assumptions, each x[i] and y[i] will map to the identical cache set:</p>
+<p><img src="/2021/08/11/Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%207.png" alt="Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%207.png"></p>
+<p>At run time, the first iteration of the loop references x[0] , a miss that causes the block containing x[0]−x [3] to be loaded into set 0. The next reference is to y[0] , another miss that causes the block containing y [0]−y [3] to be copied into set 0, overwriting the values of x that were copied in by the previous reference. During the next iteration, the reference to x[1] misses, which causes the x[0]−x [3] block to be loaded back into set 0, overwriting the y[0]−y[3] block. So now we have a conflict miss, and in fact each subsequent reference to x and y will result in a conflict miss as we thrash back and forth between blocks of x and y . The term thrashing describes any situation where a cache is repeatedly loading and evicting the same sets of cache blocks.</p>
+<p>The bottom line is that even though the program has good spatial locality and we have room in the cache to hold the blocks for both x[i] and y[i] , each reference results in a conflict miss because the blocks map to  the same cache set. It is not unusual for this kind of thrashing to result in a  slowdown by a factor of 2 or 3. Also, be aware that even though our example is extremely simple, the problem is real for larger and more realistic direct-mapped caches. Luckily, thrashing is easy for programmers to fix once they recognize what is going on. One easy solution is to put B bytes of padding at the end of each array. For example, instead of defining x to be float x[8] , we define it to be float x[12] . Assuming y starts immediately after x in memory, we have the following mapping of array elements to sets:</p>
+<p><img src="/2021/08/11/Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%208.png" alt="Cahce%20309fdb1a9e5d41fbb410de41083a0785/Untitled%208.png"></p>
+<p>With the padding at the end of x, x[i] and y[i] now map to different sets, which eliminates the thrashing conflict misses.</p>
+<h2 id="最近不经常使用算法-LFU"><a href="#最近不经常使用算法-LFU" class="headerlink" title="最近不经常使用算法(LFU)"></a>最近不经常使用算法(LFU)</h2><p>最不经常使用算法（LFU, Least Frequently Used ）—— 为每一个Cache块设置一个“计数器”，用于记<br>录每个Cache块被访问过几次。当Cache满后替换“计数器”最小的</p>
+<p>LFU算法——曾经被经常访问的主存块在未来不一定会用到（如：微信视频聊天相关的块），<br>并没有很好地遵循局部性原理，因此实际运行效果不如 LRU</p>
+<h1 id="写操作如何确保数据的一致性"><a href="#写操作如何确保数据的一致性" class="headerlink" title="写操作如何确保数据的一致性"></a>写操作如何确保数据的一致性</h1><h2 id="写命中"><a href="#写命中" class="headerlink" title="写命中"></a>写命中</h2><h3 id="写回法-write-back"><a href="#写回法-write-back" class="headerlink" title="写回法(write-back)"></a>写回法(write-back)</h3><p>— 当CPU对Cache写命中时，只修改Cache的内容，而不立即写入主存，只有当此块被换出时才写回主存</p>
+<p>减少了访存次数，但存在数据不一致的隐患。</p>
+<h3 id="全写法-写直通法，write-through"><a href="#全写法-写直通法，write-through" class="headerlink" title="全写法(写直通法，write-through)"></a>全写法(写直通法，write-through)</h3><p>当CPU对Cache写命中时，必须把数据同时写入Cache和主存，一般使用写缓冲(write buffer)</p>
+<p>访存次数增加，速度变慢，但更能保证数据一致性；</p>
+<p>使用写缓冲，CPU写的速度很快，若写操作不频繁，则效果很好。若写操作很频繁，可能会<br>因为写缓冲饱和而发生阻塞</p>
+<h2 id="写不命中"><a href="#写不命中" class="headerlink" title="写不命中"></a>写不命中</h2><h3 id="写分配法-write-allocate"><a href="#写分配法-write-allocate" class="headerlink" title="写分配法(write-allocate)"></a>写分配法(write-allocate)</h3><p>当CPU对Cache写不命中时，把主存中的块调入Cache，在Cache中修改。通常搭配写回法使用。</p>
+<h3 id="非写分配法-not-write-allocate"><a href="#非写分配法-not-write-allocate" class="headerlink" title="非写分配法(not-write-allocate)"></a>非写分配法(not-write-allocate)</h3><p>当CPU对Cache写不命中时只写入主存，不调入Cache。搭配全写法使用。</p>
+<h2 id="多级Cache"><a href="#多级Cache" class="headerlink" title="多级Cache"></a>多级Cache</h2><p>各级Cache之间常采用“全写法+非写分配法”</p>
+<p>Cache和主存之间采用“写回发+写分配法”</p>
+<p>缓存命中</p>
+<h1 id="借鉴内容"><a href="#借鉴内容" class="headerlink" title="借鉴内容"></a>借鉴内容</h1><p>[1]<a target="_blank" rel="noopener" href="https://www.cnblogs.com/feng9exe/p/6882414.html">https://www.cnblogs.com/feng9exe/p/6882414.html</a></p>
+<p>[2]<a target="_blank" rel="noopener" href="https://www.huaweicloud.com/zhishi/arc-9558555.html">https://www.huaweicloud.com/zhishi/arc-9558555.html</a></p>
+</div></article></div></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="Li YuanGang"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Li YuanGang</p><p class="is-size-6 is-block">Software Developer</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>北京</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Posts</p><a href="/archives"><p class="title">3</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/categories"><p class="title">0</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/tags"><p class="title">0</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/MrLYG" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/MrLYG"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://facebook.com"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Twitter" href="https://twitter.com"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Dribbble" href="https://dribbble.com"><i class="fab fa-dribbble"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/"><i class="fas fa-rss"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">Links</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li><li><a class="level is-mobile" href="https://bulma.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Bulma</span></span><span class="level-right"><span class="level-item tag">bulma.io</span></span></a></li></ul></div></div></div><!--!--><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2021/08/"><span class="level-start"><span class="level-item">August 2021</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li></ul></div></div></div><!--!--><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">Subscribe for updates</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="Subscribe"></div></div></form></div></div></div><div class="card widget"><div class="card-content"><div class="notification is-danger">You need to set <code>client_id</code> and <code>slot_id</code> to show this AD unit. Please set it in <code>_config.yml</code>.</div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">follow.it</h3><form action="" method="post" target="_blank"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="Subscribe"></div></div></form></div></div></div><div class="column-right-shadow is-hidden-widescreen"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3"><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-08-11T09:43:11.156Z">2021-08-11</time></p><p class="title"><a href="/2021/08/11/%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E9%85%8D%E4%B8%8E%E5%9B%9E%E6%94%B6%20df4a3ea1a0ce48f9a179b09dafc9a32d/"> </a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-08-11T09:31:06.950Z">2021-08-11</time></p><p class="title"><a href="/2021/08/11/%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%204824055cd67a458f8d4a44b63e9e9a9f/"> </a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-08-11T01:01:50.000Z">2021-08-11</time></p><p class="title"><a href="/2021/08/11/Cahce%20309fdb1a9e5d41fbb410de41083a0785/"> </a></p></div></article></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/geek.svg" alt="Yuangang&#039;s Home" height="28"></a><p class="is-size-7"><span>&copy; 2021 Yuangang Li</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
                 }
-            }, 1000)
-        }
-
-        coverSlider.carousel({
-            duration: Number('120'),
-            fullWidth: true,
-            indicators: 'true' === 'true',
-            onCycleTo() {
-                if (!initUserPressedOrDraggedActive) {
-                    // console.log('initUserPressedOrDraggedActive')
-                    initUserPressedOrDragged(this)
-                    initUserPressedOrDraggedActive = true
-                }
-            },
-        })
-
-        let carouselIntervalId;
-        
-        // Loop to call the next cover article picture.
-        let autoCarousel = function () {
-            carouselIntervalId = setInterval(function () {
-                coverSlider.carousel('next');
-            }, 5000);
-        };
-        autoCarousel();
-        
-
-        function restartPlay() {
-            
-            clearInterval(carouselIntervalId);
-            autoCarousel();
-            
-        };
-
-        
-        // prev and next cover post.
-        $('#prev-cover').click(function () {
-            coverSlider.carousel('prev');
-            restartPlay();
-        });
-        $('#next-cover').click(function () {
-            coverSlider.carousel('next');
-            restartPlay();
-        });
-        
-    });
-</script>
-
-
-
-<main class="content">
-
-    
-    <div id="indexCard" class="index-card">
-        <div class="container ">
-            <div class="card">
-                <div class="card-content">
-                    
-                        <div class="dream">
-    
-    <div class="title center-align">
-        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;我的梦想
-    </div>
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
-        </div>
-    </div>
-</div>
-
-                    
-
-                    
-
-                    
-
-                    
-                    <div id="recommend-sections" class="recommend">
-                        
-
-
-
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    
-
-    
-
-    <!-- 所有文章卡片 -->
-    <article id="articles" class="container articles">
-        <div class="row article-row">
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/08/11/Linux%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E6%96%87%E4%BB%B6/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Linux离线安装文件">
-                            
-                            <span class="card-title">Linux离线安装文件</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                本文食用方法，先看apt-get离线安装软件方法和pip离线安装方法，最后的example是在Ubuntu 16.04.7环境下安装robotframework的运行环境（包括python，chrome，robotframework，sel
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-11
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                Yuangang Li
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Linux/">
-                            <span class="chip bg-color">Linux</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/08/11/hello-world/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                            
-                            <span class="card-title">Hello World</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-11
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                Yuangang Li
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/08/11/Linux%20Ubuntu%20%E2%86%92%20apt-get%20&%20pip%20%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%20python3%207%E5%92%8Crobotf%208b928a1535f544eab0f6402c4588cc6f/%E5%AE%89%E8%A3%85python3%207%203%E4%B8%AD%E5%A6%82%E6%9E%9C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98%E6%9F%A5%E7%9C%8B%E6%AD%A4%E9%A1%B5%E9%9D%A2%207db0afd0c9f8499caf1a6a31347c659d/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
-                            
-                            <span class="card-title"></span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                安装python3.7.3中如果出现问题查看此页面出现的问题问题11.zipimport.ZipImportError: can’t decompress data; zlib not available Makefile:1130: re
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-11
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                Yuangang Li
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-        </div>
-    </article>
-
-</main>
-
-
-
-
-    <footer class="page-footer bg-color">
-    
-        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<style>
-    .aplayer .aplayer-lrc p {
-        
-        display: none;
-        
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 16px !important;
-    }
-
-    .aplayer .aplayer-lrc p.aplayer-lrc-current {
-        
-        display: none;
-        
-        font-size: 15px;
-        color: #42b983;
-    }
-
-    
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
-    }
-
-    
-</style>
-<div class="">
-    
-    <div class="row">
-        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
-                   server="netease"
-                   type="playlist"
-                   id="503838841"
-                   fixed='true'
-                   autoplay='false'
-                   theme='#42b983'
-                   loop='all'
-                   order='random'
-                   preload='auto'
-                   volume='0.7'
-                   list-folded='true'
-        >
-        </meting-js>
-    </div>
-</div>
-
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-
-    
-    <div class="container row center-align" style="margin-bottom: 0px !important;">
-        <div class="col s12 m8 l8 copy-right">
-            Copyright&nbsp;&copy;
-            
-                <span id="year">2019-2021</span>
-            
-            <span id="year">2019</span>
-            <a href="/about" target="_blank">Yuangang Li</a>
-            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
-            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
-            <br>
-            
-            
-            
-            
-            
-            
-            <span id="busuanzi_container_site_pv">
-                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
-                    class="white-color"></span>&nbsp;次
-            </span>
-            
-            
-            <span id="busuanzi_container_site_uv">
-                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
-                    class="white-color"></span>&nbsp;人
-            </span>
-            
-            <br>
-            
-            <br>
-            
-        </div>
-        <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-        <i class="fab fa-github"></i>
-    </a>
-
-
-
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
-
-</div>
-    </div>
-</footer>
-
-<div class="progress-bar"></div>
-
-
-    <!-- 搜索遮罩框 -->
-<div id="searchModal" class="modal">
-    <div class="modal-content">
-        <div class="search-header">
-            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
-            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
-                   class="search-input">
-        </div>
-        <div id="searchResult"></div>
-    </div>
-</div>
-
-<script type="text/javascript">
-$(function () {
-    var searchFunc = function (path, search_id, content_id) {
-        'use strict';
-        $.ajax({
-            url: path,
-            dataType: "xml",
-            success: function (xmlResponse) {
-                // get the contents from search data
-                var datas = $("entry", xmlResponse).map(function () {
-                    return {
-                        title: $("title", this).text(),
-                        content: $("content", this).text(),
-                        url: $("url", this).text()
-                    };
-                }).get();
-                var $input = document.getElementById(search_id);
-                var $resultContent = document.getElementById(content_id);
-                $input.addEventListener('input', function () {
-                    var str = '<ul class=\"search-result-list\">';
-                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
-                    $resultContent.innerHTML = "";
-                    if (this.value.trim().length <= 0) {
-                        return;
-                    }
-                    // perform local searching
-                    datas.forEach(function (data) {
-                        var isMatch = true;
-                        var data_title = data.title.trim().toLowerCase();
-                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
-                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
-                        var index_title = -1;
-                        var index_content = -1;
-                        var first_occur = -1;
-                        // only match artiles with not empty titles and contents
-                        if (data_title !== '' && data_content !== '') {
-                            keywords.forEach(function (keyword, i) {
-                                index_title = data_title.indexOf(keyword);
-                                index_content = data_content.indexOf(keyword);
-                                if (index_title < 0 && index_content < 0) {
-                                    isMatch = false;
-                                } else {
-                                    if (index_content < 0) {
-                                        index_content = 0;
-                                    }
-                                    if (i === 0) {
-                                        first_occur = index_content;
-                                    }
-                                }
-                            });
-                        }
-                        // show search results
-                        if (isMatch) {
-                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
-                            var content = data.content.trim().replace(/<[^>]+>/g, "");
-                            if (first_occur >= 0) {
-                                // cut out 100 characters
-                                var start = first_occur - 20;
-                                var end = first_occur + 80;
-                                if (start < 0) {
-                                    start = 0;
-                                }
-                                if (start === 0) {
-                                    end = 100;
-                                }
-                                if (end > content.length) {
-                                    end = content.length;
-                                }
-                                var match_content = content.substr(start, end);
-                                // highlight all keywords
-                                keywords.forEach(function (keyword) {
-                                    var regS = new RegExp(keyword, "gi");
-                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
-                                });
-
-                                str += "<p class=\"search-result\">" + match_content + "...</p>"
-                            }
-                            str += "</li>";
-                        }
-                    });
-                    str += "</ul>";
-                    $resultContent.innerHTML = str;
-                });
             }
-        });
-    };
-
-    searchFunc('/search.xml', 'searchInput', 'searchResult');
-});
-</script>
-
-    <!-- 回到顶部按钮 -->
-<div id="backTop" class="top-scroll">
-    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-</div>
-
-
-    <script src="/libs/materialize/materialize.min.js"></script>
-    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
-    <script src="/libs/aos/aos.js"></script>
-    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
-    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
-    <script src="/js/matery.js"></script>
-
-    <!-- Baidu Analytics -->
-
-    <!-- Baidu Push -->
-
-<script>
-    (function () {
-        var bp = document.createElement('script');
-        var curProtocol = window.location.protocol.split(':')[0];
-        if (curProtocol === 'https') {
-            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-        } else {
-            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-        }
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(bp, s);
-    })();
-</script>
-
-    
-    <script src="/libs/others/clicklove.js" async="async"></script>
-    
-    
-    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
-    
-
-    
-
-    
-
-	
-    
-
-    
-
-    
-
-    
-    <script src="/libs/instantpage/instantpage.js" type="module"></script>
-    
-
-</body>
-
-</html>
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "This website uses cookies to improve your experience.",
+          dismiss: "Got it!",
+          allow: "Allow cookies",
+          deny: "Decline",
+          link: "Learn more",
+          policy: "Cookie Policy",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>
